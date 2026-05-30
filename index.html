@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Website</title>
+    
+</head>
+<body>
+
+
+
+    <header>
+        <h1 class="main">
+        كشري الاسكندراني
+        </h1>
+        
+        </nav>
+        <img src="main.png" alt="" width="200" height="150"> 
+        
+    </header>
+    
+    <button onclick="openCart()" class="cart-float">
+    🛒 <span id="cart-count">0</span>
+</button>
+    <a href="https://wa.me/201281525050" class="whatsapp-float" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="واتساب" width="50" height="50">
+</a>
+
+    <h1 class="welcom"> اهلاً بك في كشري الاسكندراني</h1>
+    
+
+
+        <h1 class="section-title"> ركن الكشري</h1>
+        <hr color="black">
+        
+
+    <article class="a"> 
+
+            <article class="a1">
+            <img src="https://thf.bing.com/th/id/OIP.fCBH_o_3niqkOipKjoDjCgHaHa?w=167&h=182&c=7&r=0&o=7&cb=thfc1falcon&pid=1.7&rm=3" alt=" " width="230" height="200">
+            <p> لوكس 20 ج.م</p>
+            <button class="order-button" onclick="addToCart('لوكس', 20)">اطلب الآن</button>
+</a>
+        </article>
+        <article class="a2">
+            <img src="https://thf.bing.com/th/id/OIP.fCBH_o_3niqkOipKjoDjCgHaHa?w=167&h=182&c=7&r=0&o=7&cb=thfc1falcon&pid=1.7&rm=3" alt="" width="230" height="200">
+            <p> سوبر  30 ج.م</p>
+            <button class="order-button" onclick="addToCart(' سوبر', 30)">اطلب الآن</button>     
+</a>
+        </article>
+        <article class="a3">
+            <img src="https://thf.bing.com/th/id/OIP.fCBH_o_3niqkOipKjoDjCgHaHa?w=167&h=182&c=7&r=0&o=7&cb=thfc1falcon&pid=1.7&rm=3" alt="" width="230" height="200">
+            <p> وسط 40 ج.م</p>
+            <button class="order-button" onclick="addToCart(' وسط', 40)">اطلب الآن</button>   
+</a>
+        </article>
+        <article class="a4">
+            <img src="https://thf.bing.com/th/id/OIP.fCBH_o_3niqkOipKjoDjCgHaHa?w=167&h=182&c=7&r=0&o=7&cb=thfc1falcon&pid=1.7&rm=3" alt="" width="230" height="200">
+            <p> كبير 50 ج.م</p>
+            <button class="order-button" onclick="addToCart(' كبير', 50)">اطلب الآن</button>     
+</a>
+        </article>
+        <article class="a5">
+            <img src="https://thf.bing.com/th/id/OIP.fCBH_o_3niqkOipKjoDjCgHaHa?w=167&h=182&c=7&r=0&o=7&cb=thfc1falcon&pid=1.7&rm=3" alt="" width="230" height="200">
+            <p> جامبو 60 ج.م</p>
+            <button class="order-button" onclick="addToCart(' جامبو', 60)">اطلب الآن</button>     
+</a>
+        </article>
+
+    </article>
+
+    <h1 class="section-title"> ركن البيتزا</h1>
+    <hr color="black">
+
+    <article class="b">
+        <article class="b1">
+            <img src="https://thf.bing.com/th/id/OIP.gsFFCuzwPZI_as8z3sJG8AHaE8?w=267&h=180&c=7&r=0&o=7&cb=thfc1falcon&pid=1.7&rm=3" alt="" width="230" height="200">
+            <p>بيتزا صغير 60 ج.م</p>
+            <button class="order-button" onclick="addToCart('بيتزا صغير', 60)">اطلب الآن</button>
+        </article>
+        <article class="b2">
+            <img src="https://thf.bing.com/th/id/OIP.gsFFCuzwPZI_as8z3sJG8AHaE8?w=267&h=180&c=7&r=0&o=7&cb=thfc1falcon&pid=1.7&rm=3" alt="" width="230" height="200">
+            <p>بيتزا وسط 80 ج.م</p>
+            <button class="order-button" onclick="addToCart('بيتزا وسط', 80)">اطلب الآن</button>
+        </article>
+        <article class="b3">
+            <img src="https://thf.bing.com/th/id/OIP.gsFFCuzwPZI_as8z3sJG8AHaE8?w=267&h=180&c=7&r=0&o=7&cb=thfc1falcon&pid=1.7&rm=3" alt="" width="230" height="200">
+            <p>بيتزا كبير 100 ج.م</p>
+            <button class="order-button" onclick="addToCart('بيتزا كبير', 100)">اطلب الآن</button>
+        </article>
+    </article>
+
+    <h1 class="section-title"> ركن الحواوشي</h1>
+    <hr color="black">
+
+    <article class="c">
+        <article class="c1">
+            <img src="https://www.bing.com/th/id/OIP.R8Ts7fcmyZL2X1Whm4-w7wHaE8?w=193&h=135&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="" width="230" height="200">
+            <p>حواوشي صغير 30 ج.م</p>
+            <button class="order-button" onclick="addToCart('حواوشي صغير', 30)">اطلب الآن</button>
+        </article>
+        <article class="c2">
+            <img src="https://www.bing.com/th/id/OIP.R8Ts7fcmyZL2X1Whm4-w7wHaE8?w=193&h=135&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="" width="230" height="200">
+            <p>حواوشي وسط 40 ج.م</p>
+            <button class="order-button" onclick="addToCart('حواوشي وسط', 40)">اطلب الآن</button>
+        </article>
+        <article class="c3">
+            <img src="https://www.bing.com/th/id/OIP.R8Ts7fcmyZL2X1Whm4-w7wHaE8?w=193&h=135&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="" width="230" height="200">
+            <p>حواوشي كبير 50 ج.م</p>
+            <button class="order-button" onclick="addToCart('حواوشي كبير', 50)">اطلب الآن</button>
+        </article>
+    </article>
+
+    <h1 class="section-title"> ركن الكريب</h1>
+    <hr color="black">
+
+    <article class="d">
+        <article class="d1">
+            <img src="https://thf.bing.com/th/id/OIP.dVWQxU-I-tGtn7fvMvmccAHaFj?r=0&cb=thfc1falcon&rs=1&pid=ImgDetMain&o=7&rm=3" alt="" width="230" height="200">
+            <p> كريب صغير 50 ج.م</p>
+            <button class="order-button" onclick="addToCart(' كريب صغير', 50)">اطلب الآن</button>
+        </article>
+        <article class="d2">
+            <img src="https://thf.bing.com/th/id/OIP.dVWQxU-I-tGtn7fvMvmccAHaFj?r=0&cb=thfc1falcon&rs=1&pid=ImgDetMain&o=7&rm=3" alt="" width="230" height="200">
+            <p> كريب وسط 70 ج.م</p>
+            <button class="order-button" onclick="addToCart(' كريب وسط', 70)">اطلب الآن</button>
+        </article>
+        <article class="d3">
+            <img src="https://thf.bing.com/th/id/OIP.dVWQxU-I-tGtn7fvMvmccAHaFj?r=0&cb=thfc1falcon&rs=1&pid=ImgDetMain&o=7&rm=3" alt="" width="230" height="200">
+            <p> كريب كبير 90 ج.م</p>
+            <button class="order-button" onclick="addToCart(' كريب كبير', 90)">اطلب الآن</button>
+        </article>
+    </article>
+
+    <h1 class="section-title"> ركن السندوتشات</h1>
+    <hr color="black">
+
+        <article class="e">
+            <article class="e1">
+                <img src="https://darelhilal.com/Media/News/2023/4/18/2023-638173758766520418-652.jpg" alt="" width="230" height="200">
+                <p>سندوتش كبدة 30 ج.م</p>
+                <button class="order-button" onclick="addToCart('سندوتش كبدة', 30)">اطلب الآن</button>
+            </article>
+            <article class="e2">
+                <img src="https://www.mashed.com/img/gallery/30-said-this-hot-dog-condiment-is-the-absolute-worst/intro-1618337677.jpg" alt="" width="230" height="200">
+                <p>سندوتش سجق 30 ج.م</p>
+                <button class="order-button" onclick="addToCart('سندوتش سجق', 30)">اطلب الآن</button>
+            </article>
+            <article class="e3">
+                <img src="https://th.bing.com/th/id/R.6852026bda36782fb51781f6566c107e?rik=ZPthpMucg2VBHA&riu=http%3a%2f%2fbmzag.com%2fcdn%2fshop%2ffiles%2fe753bd02-cf8e-4b4e-adbd-93e95ff27865.jpg%3fv%3d1743868697&ehk=6x4wxTdaWpMl5VwcN8EHUagx7jyTf6l6sSjWSj8J4aQ%3d&risl=&pid=ImgRaw&r=0" alt="" width="230" height="200">
+                <p>سندوتش فراخ 30 ج.م</p>
+                <button class="order-button" onclick="addToCart('سندوتش فراخ', 30)">اطلب الآن</button>
+            </article>
+        </article>
+
+        <h1 class="section-title"> ركن المشروبات</h1>
+        <hr color="black">
+
+        <article class="f">
+            <article class="f1">
+                <img src="https://i.pinimg.com/736x/2d/ed/05/2ded05b7c67f1e7921c9f3f1a3824d07.jpg" alt="" width="230" height="200">
+                <p>كولا 20 ج.م</p>
+                <button class="order-button" onclick="addToCart('كولا', 20)">اطلب الآن</button>
+            </article>
+            <article class="f2">
+                <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/432800181353863.651ae4a6ac67e.png" alt="" width="230" height="200">
+                <p>فيمتو 30 ج.م</p>
+                <button class="order-button" onclick="addToCart('فيمتو', 30)">اطلب الآن</button>
+            </article>
+            <article class="f3">
+                <img src="https://tse2.mm.bing.net/th/id/OIP.ZeymV4VlhBusJCbZEfG7GQHaHa?r=0&cb=thfc1falcon&pid=ImgDet&w=194&h=194&c=7&o=7&rm=3" alt="" width="230" height="200">
+                <p>عصير 30 ج.م</p>
+                <button class="order-button" onclick="addToCart('عصير', 30)">اطلب الآن</button>
+            </article>
+        </article>
+
+    
+
+
+
+
+</article>
+
+<script>
+    let cart = [];
+
+    function addToCart(productName, price) {
+        // البحث عن المنتج إذا كان موجوداً مسبقاً
+        let existingProduct = cart.find(item => item.name === productName);
+
+        if (existingProduct) {
+            // إذا وجدنا المنتج، نزيد العدد فقط
+            existingProduct.quantity += 1;
+        } else {
+            // إذا لم نجده، نضيفه مع تحديد العدد بـ 1
+            cart.push({ name: productName, price: price, quantity: 1 });
+        }
+
+        updateCartUI(); // تحديث رقم السلة في الموقع
+        alert(productName + " تمت إضافته!");
+    }
+
+    function updateCartUI() {
+        // حساب إجمالي العدد لتحديث الأيقونة
+        let totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
+        document.getElementById('cart-count').innerText = totalItems;
+    }
+
+    function openCart() {
+        let message = "طلباتي:\n";
+        let total = 0;
+        
+        cart.forEach(item => {
+            message += `${item.name} (العدد: ${item.quantity}) - ${item.price * item.quantity} ج.م\n`;
+            total += (item.price * item.quantity);
+        });
+        
+        message += "\nالإجمالي: " + total + " ج.م";
+        window.open("https://wa.me/201281525050?text=" + encodeURIComponent(message));
+    }
+</script>
+
+
+</body>
+
+
+
+
+
+    <footer>
+        <p class="designer">تم تصميم الموقع بواسطة هشام </p>
+        <p class="copy">جميع الحقوق محفوظة &copy; 2024 </p>
+        <button onclick="document.getElementById('phoneWindow').showModal()" 
+        style="padding: 10px 20px; background: #f11515; color: white; border: none; cursor: pointer;">
+    اتصل بنا
+</button>
+
+<dialog id="phoneWindow" style="border: none; border-radius: 15px; padding: 20px; box-shadow: 0 0 10px rgba(0,0,0,0.5);">
+    <h3>أرقام التواصل</h3>
+    <p>📱 رقم 1: 01062063425</p>
+    <p>📞 رقم 2: 01202530125</p>
+    <br>
+    <button onclick="document.getElementById('phoneWindow').close()">إغلاق</button>
+</dialog>
+    </footer>
